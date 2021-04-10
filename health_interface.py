@@ -7,7 +7,7 @@ import sys
 
 #location
 g = geocoder.ip('me')
-print(g.latlng)
+
 
 geolocator = Nominatim(user_agent="geoapiExercises")
 
